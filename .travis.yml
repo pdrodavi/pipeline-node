@@ -8,5 +8,5 @@ deploy:
   provider: heroku
   api_key:
     secure: $HEROKU_KEY
-  app: devops-ultimate
+  app: devops-pipe
   edge: true
