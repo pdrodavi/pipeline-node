@@ -6,7 +6,6 @@ script:
 - npm test
 deploy:
   provider: heroku
-  api_key:
-    secure: 4c18f47f-0f76-4a49-9be6-abde7e14a7f5
+  api_key: $HEROKU_API_KEY
   app: devops-pipe
   edge: true
