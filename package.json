@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "mocha",
+    "sonar": "mocha --reporter mocha-sonarqube-reporter test --reporter-options output=xunit.xml",
     "start": "node app.js"
   },
   "author": "Pedro Davi",
