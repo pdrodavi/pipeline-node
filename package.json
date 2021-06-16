@@ -4,7 +4,7 @@
   "description": "Test pipeline DevOps",
   "main": "app.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --reporter mocha-sonar-generic-test-coverage test",
     "sonar": "mocha --reporter mocha-sonarqube-reporter test --reporter-options output=xunit.xml",
     "start": "node app.js"
   },
